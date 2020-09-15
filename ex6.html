@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ex7</title>
+</head>
+<body>
+<script>
+    let minute = parseFloat(prompt("enter the minutes"));
+    if (minute > 200)
+        money = (minute - 200) * 200 + 150 * 400 + 50 * 600;
+    else if (minute > 50)
+        money = (minute - 50) * 400 + 50 * 600;
+    else
+        money = minute * 600;
+    alert('số tiền phải trả là ' + money)
+</script>
+</body>
+</html>
